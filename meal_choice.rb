@@ -4,15 +4,15 @@ def snacks(food="Cheetos")
 end
 
 # Define breakfast, lunch and dinner methods that return the meal choice passed into them with a default to your favorite.
-def breakfast(food="pancakes")
+def breakfast(food="Frosted Flakes")
   "The best food to eat for breakfast is #{food}!"
 end
 
-def lunch(food="soup")
+def lunch(food="grilled cheese")
   "There are many options for lunch, but I love #{food}."
 end
 
-def dinner(food="pasta")
+def dinner(food="Salmon")
   "In the evening you should eat #{food} for your meal."
 end
 
@@ -22,7 +22,7 @@ puts snacks("Swedish fish")
 ## This returns "Any time, is the right time for Sweedish fish!"
 
 # call your methods here
-puts breakfast("Frosted Flakes")
+puts breakfast("waffles")
 puts lunch("pizza")
 puts dinner("chicken")
 
