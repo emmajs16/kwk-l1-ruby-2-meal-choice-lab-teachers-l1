@@ -12,7 +12,7 @@ def lunch(food="grilled cheese")
   "There are many options for lunch, but I love #{food}."
 end
 
-def dinner(food="Salmon")
+def dinner(food="salmon")
   "In the evening you should eat #{food} for your meal."
 end
 
